@@ -1,0 +1,35 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 33.333, 64%, 95%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 200.357, 97%, 23%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 186, 22%, 18%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 168.947, 21%, 64%;
+    --muted-foreground: 0 0% 98%;
+    --accent: 159.07, 22%, 39%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 200.357, 97%, 23%;
+    --input: 200.357, 97%, 23%;
+    --ring: 0 0% 98%;
+    --radius: 1.5rem;
+
+    --success: 138 68% 23%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 12.093, 75%, 34%;
+    --warning-foreground: 0 0% 98%;
+  }
+}
